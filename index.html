@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>حسابداری ساختمان</title>
+  <meta name="description" content="نرم‌افزار حسابداری شارژ و هزینه‌های ساختمان؛ آفلاین و بدون سرور، داده‌ها فقط روی دستگاه شما می‌ماند.">
+  <meta name="theme-color" content="#3b6a62">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <aside class="side noprint">
+    <div class="top"><span class="brandmark"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h.01M15 8h.01M9 12h.01M15 12h.01M10 21v-4h4v4"/></svg></span><div class="brand"><b id="brandName">ساختمان من</b><small>حسابداری ساختمان</small></div></div>
+    <nav id="nav" class="nav" aria-label="بخش‌ها"></nav>
+    <div id="status" class="status"></div>
+  </aside>
+    <main id="view" tabindex="-1"></main>
+  </div>
+  <div id="printArea"></div>
+  <dialog id="modal"></dialog>
+  <div id="toast" class="toast noprint" role="status"></div>
+
+  <noscript><p style="padding:2rem">برای استفاده از این برنامه، جاوااسکریپت باید فعال باشد.</p></noscript>
+
+  <script src="js/jalali.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/calc.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/pages-main.js"></script>
+  <script src="js/pages-money.js"></script>
+  <script src="js/pages-reports.js"></script>
+  <script src="js/boot.js"></script>
+</body>
+</html>
